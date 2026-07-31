@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/File.png</file>
+        <file>resource/FullScreen.png</file>
+        <file>resource/Language.png</file>
+        <file>resource/List.png</file>
+        <file>resource/Lower.png</file>
+        <file>resource/background.png</file>
+    </qresource>
+</RCC>

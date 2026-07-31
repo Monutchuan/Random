@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HeaderDialog</class>
+ <widget class="QDialog" name="HeaderDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QListWidget" name="listWidget">
+     <item>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Image</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Probability</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sex</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tag</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnEdit">
+     <property name="text">
+      <string>Edit Tag</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
